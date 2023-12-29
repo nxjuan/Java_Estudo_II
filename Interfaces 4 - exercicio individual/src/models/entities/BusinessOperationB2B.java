@@ -5,9 +5,7 @@ public class BusinessOperationB2B extends BusinessOperation{
 
     private String companyName;    
     
-    public BusinessOperationB2B(){
-
-    }
+    public BusinessOperationB2B(){}
 
     public BusinessOperationB2B(String companyName) {
         this.companyName = companyName;

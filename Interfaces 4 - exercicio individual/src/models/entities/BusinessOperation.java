@@ -1,8 +1,7 @@
 package models.entities;
 
-import models.services.Operation;
 
-public class BusinessOperation extends Business implements Operation {
+public class BusinessOperation extends Business{
 
     private Business business;   
     

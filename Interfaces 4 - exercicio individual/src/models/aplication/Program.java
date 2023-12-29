@@ -46,6 +46,8 @@ public class Program {
                     if(businessType != 1 && businessType != 2){
                         System.out.println("Error, invalid value");
                     }break;
+                case 2:
+                    
                 }
             System.out.println("New operation? (y/n)");
             char v = sc.next().charAt(0);
