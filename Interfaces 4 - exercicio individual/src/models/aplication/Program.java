@@ -55,7 +55,6 @@ public class Program {
                 break;
             }
         }
-
         for(BusinessOperation i : list){
             System.out.println(i.toString());
         }
