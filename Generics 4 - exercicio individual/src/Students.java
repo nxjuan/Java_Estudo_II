@@ -1,27 +1,16 @@
-public class Students implements Comparable<Students>{
+import java.util.ArrayList;
+import java.util.List;
 
-    private String nome;
-    private Double nota;
-    
-    public Students(String nome, double nota) {
-        this.nome = nome;
-        this.nota = nota;
-    }
-    public String getNome() {
-        return nome;
-    }
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-    public double getNota() {
-        return nota;
-    }
-    public void setNota(double nota) {
-        this.nota = nota;
+public class Students<T> {
+
+    List<T> student = new ArrayList<>();
+
+    public void addElement(T aluno){
+        student.add(aluno);
     }
 
-    @Override
-    public int compareTo(Students o) {
-        return nota.compareTo(o.getNota());
+    public List<T> getStudenList(){
+        return student;
     }
+
 }
